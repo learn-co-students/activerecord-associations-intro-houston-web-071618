@@ -1,2 +1,5 @@
 class CreateArtists < ActiveRecord::Migration[4.2]
-end
+  create_table :artists do |t|
+      t.string :name
+    end
+  end

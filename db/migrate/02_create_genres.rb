@@ -1,2 +1,5 @@
 class CreateGenres < ActiveRecord::Migration[4.2]
-end
+  create_table :genres do |t|
+      t.string :name
+    end
+  end
